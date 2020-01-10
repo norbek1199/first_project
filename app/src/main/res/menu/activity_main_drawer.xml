@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kun1"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Dushanba" />
+        <item
+            android:id="@+id/kun2"
+            android:icon="@drawable/ic_filter_2_black_24dp"
+            android:title="Seshanba" />
+        <item
+            android:id="@+id/kun3"
+            android:icon="@drawable/ic_filter_3_black_24dp"
+            android:title="Chorshanba " />
+        <item
+            android:id="@+id/kun4"
+            android:icon="@drawable/ic_filter_4_black_24dp"
+            android:title="Payshanba " />
+        <item
+            android:id="@+id/kun5"
+            android:icon="@drawable/ic_filter_5_black_24dp"
+            android:title="Juma " />
+        <item
+        android:id="@+id/kun6"
+        android:icon="@drawable/ic_filter_6_black_24dp"
+        android:title="Shanba " />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
